@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="side_bar_1" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>175</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>175</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="side_bar_1_verticalLayout"/>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="side_bar_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>175</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>175</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="side_bar_2_verticalLayout"/>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="editor_2" native="true">
+      <layout class="QVBoxLayout" name="editor">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>asdadasd</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>673</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Note"/>
+    <addaction name="actionOpen_Note"/>
+    <addaction name="actionNew_Directory"/>
+    <addaction name="actionOpen_Directory"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuDeath_Note">
+    <property name="title">
+     <string>Death Note</string>
+    </property>
+    <addaction name="actionDeath_Note_Hak_nda"/>
+    <addaction name="actionTercihler"/>
+    <addaction name="separator"/>
+    <addaction name="actionUygulamadan_k"/>
+   </widget>
+   <addaction name="menuDeath_Note"/>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew_Note">
+   <property name="text">
+    <string>Yeni Not</string>
+   </property>
+  </action>
+  <action name="actionOpen_Note">
+   <property name="text">
+    <string>Not Aç</string>
+   </property>
+  </action>
+  <action name="actionNew_Directory">
+   <property name="text">
+    <string>Yeni Klasör</string>
+   </property>
+  </action>
+  <action name="actionOpen_Directory">
+   <property name="text">
+    <string>Klasör Aç</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Kaydet</string>
+   </property>
+  </action>
+  <action name="actionDeath_Note_Hak_nda">
+   <property name="text">
+    <string>Death Note Hakında</string>
+   </property>
+  </action>
+  <action name="actionTercihler">
+   <property name="text">
+    <string>Tercihler</string>
+   </property>
+  </action>
+  <action name="actionUygulamadan_k">
+   <property name="text">
+    <string>Uygulamadan Çık</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
